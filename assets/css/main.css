@@ -1690,7 +1690,6 @@
 
 	h3 {
 		font-size: 1.35rem;
-		text-transform: uppercase;
 	}
 
 	h4 {
@@ -3085,7 +3084,7 @@
 
 		.wrapper.style3 {
 			background-color: #000;
-			color: #bfbfbf;
+			color: #dcd9d9;
 			background-image: url(../../images/BlackConstellation.jpg);
 			background-size: cover;
 			background-attachment: fixed;
@@ -3954,6 +3953,10 @@
 			padding-right: 0;
 		}
 
+		#flexgrid > :nth-child(-n+3) {
+			border-bottom-width: 1px;
+		}
+
 		#flexgrid > :nth-child(3n + 1),
 		#flexgrid > :nth-child(3n) {
 			width: calc(33.33333% + -1rem);
@@ -3962,8 +3965,6 @@
 		#flexgrid > div {
 			border-style: solid;
 			border-color: rgba(255, 255, 255, 0.25);
-			border-left-width: 1px;
-			border-top-width: 1px;
 			text-align: center;
 		}
 
